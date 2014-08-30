@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DropIt</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="title_activity_list">ListActivity</string>
+    <string name="title_activity_fly_out_container">FlyOutContainer</string>
+    <string name="title_activity_new_course">NewCourseActivity</string>
+    <string name="title_activity_analyzing">AnalyzingActivity</string>
+    <string name="title_activity_mark_distribution_analysis">MarkDistributionAnalysis</string>
+    <string name="title_activity_current_status">CurrentStatusActivity</string>
+    <string name="title_activity_requirement">RequirementActivity</string>
+    <string name="title_activity_new_course_activity1">NewCourseActivity1</string>
+    <string name="title_activity_progress">ProgressActivity</string>
+    <string name="title_activity_new_work">NewWorkActivity</string>
+    <string name="title_activity_progress_mark">ProgressMarkActivity</string>
+    <string name="title_activity_modify_mark_distribution">ModifyMarkDistributionActivity</string>
+    <string name="title_activity_starting_acitivity">StartingAcitivity</string>
+    <string name="title_activity_simply">Simply</string>
+    <string name="title_activity_timer_class">TimerClassActivity</string>
+    <string name="title_activity_door">DoorActivity</string>
+    <string name="title_activity_door_list">DoorListActivity</string>
+    <string name="title_activity_selecting">SelectingActivity</string>
+    <string name="title_activity_timing_analysing">TimingAnalysingActivity</string>
+    <string name="title_activity_timing_analyze_tab1">TimingAnalyzeTab1Activity</string>
+    <string name="title_activity_timing_analyze_tab2">TimingAnalyzeTab2Activity</string>
+
+</resources>

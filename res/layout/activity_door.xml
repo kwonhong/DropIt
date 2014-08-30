@@ -1,0 +1,188 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".DoorActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+         <LinearLayout
+             android:layout_width="0dp"
+             android:layout_height="match_parent"
+             android:layout_weight="1"
+             android:orientation="vertical" >
+
+        </LinearLayout>
+
+         <LinearLayout
+             android:layout_width="0dp"
+             android:layout_height="match_parent"
+             android:layout_weight="2"
+             android:orientation="vertical" >
+
+             <ImageView
+                 android:id="@+id/imageView1"
+                 android:layout_width="match_parent"
+                 android:layout_height="0dp"
+                 android:layout_weight="5"
+                 android:src="@drawable/door6" />
+
+             <TextView
+                 android:id="@+id/textView1"
+                 android:layout_width="match_parent"
+                 android:layout_height="0dp"
+                 android:layout_weight="1"
+                 android:gravity="center_horizontal|center_vertical"
+                 android:text="MAT291"
+                 android:textAppearance="?android:attr/textAppearanceLarge" />
+
+         </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:orientation="vertical" >
+
+        </LinearLayout>
+
+        <LinearLayout
+             android:layout_width="0dp"
+             android:layout_height="match_parent"
+             android:layout_weight="2"
+             android:orientation="vertical" >
+
+             <ImageView
+                 android:id="@+id/imageView2"
+                 android:layout_width="match_parent"
+                 android:layout_height="0dp"
+                 android:layout_weight="5"
+                 android:src="@drawable/door6" />
+
+             <TextView
+                 android:id="@+id/textView2"
+                 android:layout_width="match_parent"
+                 android:layout_height="0dp"
+                 android:layout_weight="1"
+                 android:text="MAT290"
+                 android:gravity="center_horizontal|center_vertical"
+                 android:textAppearance="?android:attr/textAppearanceLarge" />
+
+         </LinearLayout>
+
+         <LinearLayout
+             android:layout_width="0dp"
+             android:layout_height="match_parent"
+             android:layout_weight="1"
+             android:orientation="vertical" >
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+             android:layout_width="0dp"
+             android:layout_height="match_parent"
+             android:layout_weight="2"
+             android:orientation="vertical" >
+
+             <ImageView
+                 android:id="@+id/imageView3"
+                 android:layout_width="match_parent"
+                 android:layout_height="0dp"
+                 android:layout_weight="5"
+                 android:src="@drawable/door6" />
+
+             <TextView
+                 android:id="@+id/textView3"
+                 android:layout_width="match_parent"
+                 android:layout_height="0dp"
+                 android:layout_weight="1"
+                 android:text="ECE221"
+                 android:gravity="center_horizontal|center_vertical"
+                 android:textAppearance="?android:attr/textAppearanceLarge" />
+
+         </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:orientation="vertical" >
+
+        </LinearLayout>
+
+        <LinearLayout
+             android:layout_width="0dp"
+             android:layout_height="match_parent"
+             android:layout_weight="2"
+             android:orientation="vertical" >
+
+             <ImageView
+                 android:id="@+id/imageView4"
+                 android:layout_width="match_parent"
+                 android:layout_height="0dp"
+                 android:layout_weight="5"
+                 android:src="@drawable/door6" />
+
+             <TextView
+                 android:id="@+id/textView4"
+                 android:layout_width="match_parent"
+                 android:layout_height="0dp"
+                 android:layout_weight="1"
+                 android:text="ECE241"
+                 android:gravity="center_horizontal|center_vertical"
+                 android:textAppearance="?android:attr/textAppearanceLarge" />
+
+         </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5" >
+
+        </LinearLayout>
+
+       <LinearLayout
+             android:layout_width="0dp"
+             android:layout_height="match_parent"
+             android:layout_weight="2"
+             android:orientation="vertical" >
+
+             <ImageView
+                 android:id="@+id/imageView5"
+                 android:layout_width="match_parent"
+                 android:layout_height="0dp"
+                 android:layout_weight="5"
+                 android:src="@drawable/door6" />
+
+             <TextView
+                 android:id="@+id/textView5"
+                 android:layout_width="match_parent"
+                 android:layout_height="0dp"
+                 android:layout_weight="1"
+                 android:text="ECE250"
+                 android:gravity="center_horizontal|center_vertical"
+                 android:textAppearance="?android:attr/textAppearanceLarge" />
+
+         </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
